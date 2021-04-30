@@ -20,7 +20,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="310dp"
-                app:srcCompat="@mipmap/ic_logo_bg_foreground" />
+                app:srcCompat="@mipmap/ic_logo_banco_inter_foreground" />
 
             <EditText
                 android:id="@+id/editTextLogin"
