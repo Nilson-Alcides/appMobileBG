@@ -9,4 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Amarelo">#FFFF00</color>
 
+    <!-- Minhas cores projeto -->
+
+    <color name="laranja_05">#faf9f1</color>
+    <color name="laranja_10">#fad39f</color>
+    <color name="laranja_15">#fac673</color>
+    <color name="laranja_20">#e9a484</color>
+    <color name="laranja_30">#f1a356</color>
+    <color name="laranja_40">#d48c29</color>
+
+
+
 </resources>
