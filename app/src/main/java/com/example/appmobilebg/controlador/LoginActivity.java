@@ -1,4 +1,4 @@
-package com.example.appmobilebg;
+package com.example.appmobilebg.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.appmobilebg.R;
 
 public class LoginActivity extends AppCompatActivity {
     EditText editTextLogin;

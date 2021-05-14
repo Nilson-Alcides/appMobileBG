@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMobileBG">
         <activity
-            android:name=".SplashActivity"
+            android:name=".controlador.SplashActivity"
             android:label="Tela Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,13 +18,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MenuActivity">
+        <activity android:name=".controlador.MenuActivity">
 
         </activity>
 
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".controlador.LoginActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".controlador.MainActivity"
             android:label="Activity Teste">
 
         </activity>
