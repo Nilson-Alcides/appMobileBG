@@ -9,25 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMobileBG">
+        <activity android:name=".controlador.ConsultaActivity"></activity>
+        <activity android:name=".controlador.CadastroActivity" />
         <activity
             android:name=".controlador.SplashActivity"
             android:label="Tela Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".controlador.MenuActivity">
-
-        </activity>
-
+        <activity android:name=".controlador.MenuActivity" />
         <activity android:name=".controlador.LoginActivity" />
         <activity
             android:name=".controlador.MainActivity"
-            android:label="Activity Teste">
-
-        </activity>
+            android:label="Activity Teste" />
     </application>
 
 </manifest>

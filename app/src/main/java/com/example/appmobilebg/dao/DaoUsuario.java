@@ -18,14 +18,11 @@ private static final String TABELA_USUARIO = "tb_usuario";
     public DaoUsuario(@Nullable Context context) {
         super(context);
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS tb_usuario");
         this.onCreate(db);
     }
-
-
 
     public Long salvarUsuario(UsuarioDTO usuarioDTO){
         ContentValues values = new ContentValues();

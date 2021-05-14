@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        editTextLogin = findViewById(R.id.editTextLogin);
+        editTextLogin = findViewById(R.id.editTextNome);
         editTextSenha = findViewById(R.id.editTextSenha);
         buttonEnviar = findViewById(R.id.buttonEnviar);
         abrirTelaMenu();
