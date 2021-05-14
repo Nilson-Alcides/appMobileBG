@@ -10,9 +10,8 @@ public class UsuarioDTO {
 
     }
 
-    public UsuarioDTO(Long codigo, String login, String nome, String senha) {
-        this.codigo = codigo;
-        this.login = login;
+    public UsuarioDTO(String login, String nome, String senha) {
+       this.login = login;
         this.nome = nome;
         this.senha = senha;
     }
